@@ -1,0 +1,26 @@
+{
+  "name": "xr-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development",
+    "build": "webpack -p --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kari Suominen",
+  "license": "GNU3",
+  "dependencies": {
+    "three": "^0.120.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.1.0",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
