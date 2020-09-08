@@ -11,6 +11,7 @@
   "author": "Kari Suominen",
   "license": "GNU3",
   "dependencies": {
+    "aframe": "^1.0.4",
     "three": "^0.120.1"
   },
   "devDependencies": {

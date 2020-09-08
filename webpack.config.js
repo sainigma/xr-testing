@@ -1,7 +1,6 @@
 const path = require('path')
 const webPack = require('webpack')
 const HtmlWebPackPlugin = require('html-webpack-plugin')
-const CopyWebPackPlugin = require('copy-webpack-plugin')
 
 let config = {
   entry: {
@@ -30,13 +29,7 @@ let config = {
     new HtmlWebPackPlugin({
       template: './public/index.html',
       filename: './index.html'
-    }),/*
-    new CopyWebPackPlugin([
-      {from:'./public/misc',to:'misc'},
-      {from:'./public/textures',to:'textures'},
-      {from:'./public/models',to:'models'},
-      {from:'./public/sounds',to:'sounds'},
-    ])*/
+    })
   ],
   stats:{
     children:false
